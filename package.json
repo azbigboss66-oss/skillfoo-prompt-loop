@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "type": "module",
   "description": "A local CLI tool for prompt self-evolution loop",
+  "private": true,
+  "license": "UNLICENSED",
   "engines": {
     "node": ">=20"
   },
@@ -13,7 +15,8 @@
     "!dist/**/*.map",
     "examples/**",
     ".env.example",
-    "README.md"
+    "README.md",
+    "THIRD_PARTY_NOTICES.md"
   ],
   "bin": {
     "skillfoo": "dist/cli.js"
