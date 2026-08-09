@@ -1,0 +1,38 @@
+{
+  "name": "skillfoo-prompt-loop",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A local CLI tool for prompt self-evolution loop",
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "dist/**/*.js",
+    "dist/**/*.d.ts",
+    "!dist/tests/**",
+    "!dist/**/*.map",
+    "examples/**",
+    ".env.example",
+    "README.md"
+  ],
+  "bin": {
+    "skillfoo": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/tests/*.test.js",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "js-yaml": "^4.3.1",
+    "promptfoo": "^0.122.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.4"
+  }
+}

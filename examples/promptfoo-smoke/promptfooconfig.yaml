@@ -1,0 +1,18 @@
+# SkillFoo V5 Promptfoo Smoke Eval
+# 最小配置：1 个 Prompt、1 个 echo provider、1 条测试题、1 条确定性 assertion
+# 不包含自动出题或 optimize
+
+description: "SkillFoo V5 Promptfoo smoke eval"
+
+prompts:
+  - "Reply with exactly: Hello, World!"
+
+providers:
+  - id: "echo"
+    label: "echo-provider"
+
+tests:
+  - vars: {}
+    assert:
+      - type: icontains
+        value: "Hello"

@@ -1,0 +1,15 @@
+{
+    "projectName":  "basic",
+    "optimizationEngine":  "promptfoo",
+    "provider":  {
+                     "baseUrl":  "https://api.deepseek.com/v1",
+                     "model":  "deepseek-chat",
+                     "apiKeyEnv":  "DEEPSEEK_API_KEY",
+                     "type":  "openai-compatible",
+                     "thinking":  "disabled"
+                 },
+    "candidateCount":  3,
+    "targetScore":  60,
+    "minImprovement":  2,
+    "maxIters":  2
+}

@@ -1,0 +1,4 @@
+# Release only the executable build and runnable examples declared in package.json.
+# Keep source, tests, historical acceptance evidence, and local runs in the repository.
+dist/tests/
+dist/**/*.map

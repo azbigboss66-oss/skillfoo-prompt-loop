@@ -1,0 +1,17 @@
+{
+  "projectName": "customer-support-safety-v1",
+  "targetScore": 90,
+  "maxIters": 4,
+  "minImprovement": 2,
+  "candidateCount": 3,
+  "casePassScore": 80,
+  "repairScoreThreshold": 85,
+  "holdoutTestsPath": "holdout-tests.jsonl",
+  "provider": {
+    "type": "mock",
+    "baseUrl": "https://api.deepseek.com/v1",
+    "apiKeyEnv": "DEEPSEEK_API_KEY",
+    "model": "deepseek-chat",
+    "thinking": "disabled"
+  }
+}

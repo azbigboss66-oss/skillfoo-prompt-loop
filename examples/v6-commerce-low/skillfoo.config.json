@@ -1,0 +1,16 @@
+{
+    "projectName":  "v6-commerce-low",
+    "targetScore":  90,
+    "maxIters":  2,
+    "minImprovement":  2,
+    "candidateCount":  1,
+    "casePassScore":  80,
+    "repairScoreThreshold":  85,
+    "provider":  {
+                     "type":  "openai-compatible",
+                     "baseUrl":  "https://api.deepseek.com/v1",
+                     "apiKeyEnv":  "DEEPSEEK_API_KEY",
+                     "model":  "deepseek-chat",
+                     "thinking":  "disabled"
+                 }
+}

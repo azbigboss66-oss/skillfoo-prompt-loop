@@ -1,0 +1,13 @@
+{
+  "projectName": "real-test",
+  "targetScore": 80,
+  "maxIters": 3,
+  "minImprovement": 2,
+  "candidateCount": 2,
+  "provider": {
+    "type": "openai-compatible",
+    "baseUrl": "https://api.deepseek.com",
+    "apiKeyEnv": "DEEPSEEK_API_KEY",
+    "model": "deepseek-v4-pro"
+  }
+}

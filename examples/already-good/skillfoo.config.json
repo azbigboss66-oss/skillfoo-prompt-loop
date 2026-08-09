@@ -1,0 +1,10 @@
+{
+  "projectName": "already-good",
+  "targetScore": 60,
+  "maxIters": 3,
+  "minImprovement": 2,
+  "candidateCount": 3,
+  "provider": {
+    "type": "mock"
+  }
+}

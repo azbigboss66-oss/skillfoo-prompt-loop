@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables (never commit API keys)
+.env
+.env.*
+!.env.example
+
+# Run outputs (local only, never commit user prompts or results)
+runs/
+
+# Temporary directories
+tmp-*/
+
+# npm cache
+.npm-cache/
+
+# Test coverage
+coverage/
+
+# Logs
+*.log
+
+# Local historical archives and acceptance evidence (never publish by default)
+V1/
+V2/
+V3/
+V4/
+V5/
+V6/
+docs/
+evidence/
+SkillFoo-Prompt-Loop-总讲解稿.md
+项目讲解与版本迭代说明.md
+
+# Frontend demo node_modules and build outputs
+V4/V4讲解演示/node_modules/
+V5/V5讲解演示/node_modules/
+V5/V5讲解演示/dist/

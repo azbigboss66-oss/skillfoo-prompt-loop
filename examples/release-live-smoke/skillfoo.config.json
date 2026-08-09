@@ -1,0 +1,27 @@
+{
+  "projectName": "release-live-smoke",
+  "optimizationEngine": "promptfoo",
+  "provider": {
+    "type": "openai-compatible",
+    "baseUrl": "https://api.deepseek.com/v1",
+    "apiKeyEnv": "DEEPSEEK_API_KEY",
+    "model": "deepseek-chat",
+    "thinking": "disabled"
+  },
+  "candidateCount": 1,
+  "targetScore": 100,
+  "minImprovement": 2,
+  "maxIters": 0,
+  "casePassScore": 80,
+  "repairScoreThreshold": 85,
+  "runtime": {
+    "maxConcurrency": 1,
+    "cache": false,
+    "retryErrors": false,
+    "repeat": 1
+  },
+  "bestPromptPolicy": {
+    "promptSpecMode": "advisory",
+    "requireHoldoutForAccepted": true
+  }
+}

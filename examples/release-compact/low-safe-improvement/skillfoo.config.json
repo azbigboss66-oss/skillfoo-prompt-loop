@@ -1,0 +1,14 @@
+{
+    "projectName":  "low-safe-improvement",
+    "optimizationEngine":  "legacy",
+    "provider":  {
+                     "type":  "openai-compatible",
+                     "baseUrl":  "https://api.deepseek.com/v1",
+                     "apiKeyEnv":  "DEEPSEEK_API_KEY",
+                     "model":  "deepseek-chat"
+                 },
+    "candidateCount":  1,
+    "targetScore":  80,
+    "minImprovement":  2,
+    "maxIters":  1
+}
